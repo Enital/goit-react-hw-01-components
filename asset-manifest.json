@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Enital/goit-react-hw-01-components.git/static/css/main.7acaea2f.css",
-    "main.js": "/Enital/goit-react-hw-01-components.git/static/js/main.07d3183d.js",
+    "main.css": "/Enital/goit-react-hw-01-components.git/static/css/main.14bea2f5.css",
+    "main.js": "/Enital/goit-react-hw-01-components.git/static/js/main.db6ee7cb.js",
     "index.html": "/Enital/goit-react-hw-01-components.git/index.html",
-    "main.7acaea2f.css.map": "/Enital/goit-react-hw-01-components.git/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/Enital/goit-react-hw-01-components.git/static/js/main.07d3183d.js.map"
+    "main.14bea2f5.css.map": "/Enital/goit-react-hw-01-components.git/static/css/main.14bea2f5.css.map",
+    "main.db6ee7cb.js.map": "/Enital/goit-react-hw-01-components.git/static/js/main.db6ee7cb.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.14bea2f5.css",
+    "static/js/main.db6ee7cb.js"
   ]
 }
