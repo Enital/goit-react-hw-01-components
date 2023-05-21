@@ -1,0 +1,23 @@
+.transaction-history{
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.table-title-row{
+    background-color: #43bdd5;
+    height: 50px;
+    color: white;
+    text-transform: uppercase;
+}
+.table-row{
+    height: 30px;
+    background-color: azure;
+}
+.table-row:nth-child(even){
+    background-color: lightgray;
+}
+.table-item{
+    text-align: center;
+}
+

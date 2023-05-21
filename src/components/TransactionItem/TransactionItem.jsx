@@ -3,10 +3,10 @@ import PropTypes from "prop-types";
 
 export const TransactionItem = ({ type, amount, currency }) => {
     return (
-        <tr>
-            <td>{ type }</td>
-            <td>{ amount }</td>
-            <td>{ currency }</td>
+        <tr className="table-row">
+            <td className="table-item">{ type }</td>
+            <td className="table-item">{ amount }</td>
+            <td className="table-item">{ currency }</td>
         </tr>
     )
 }

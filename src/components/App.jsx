@@ -12,13 +12,10 @@ export const App = () => {
   return (
     <div
       style={{
-        height: '100vh',
         display: 'flex',
         flexDirection: 'column',
-        // justifyContent: 'center',
-        // alignItems: 'center',
         fontSize: 16,
-        // color: '#010101'
+        padding: '50px 0',
       }}
     >
       <Profile

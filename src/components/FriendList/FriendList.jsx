@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 import {FriendListItem} from 'components/FriendListItem/FriendListItem'
 
 import './friendList.css'
@@ -15,6 +15,5 @@ function FriendList({ friends }) {
 export default FriendList;
 
 FriendList.prototypes = {
-    label: PropTypes.string.isRequired,
-    percentage: PropTypes.number.isRequired,
+    friends: PropTypes.object,
 }

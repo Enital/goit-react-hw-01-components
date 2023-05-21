@@ -40,11 +40,9 @@ function Profile ({ username, tag, location, avatar, stats }) {
 export default Profile;
 
 Profile.prototypes = {
-  user: PropTypes.shape({
     avatar: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
     tag: PropTypes.string.isRequired,
     location: PropTypes.string.isRequired,
     stats: PropTypes.object.isRequired
-  })
 }

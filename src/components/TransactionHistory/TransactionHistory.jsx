@@ -1,15 +1,16 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
-import {TransactionItem} from 'components/TransactionItem/TransactionItem'
+import PropTypes from 'prop-types';
+import { TransactionItem } from 'components/TransactionItem/TransactionItem'
+import './transactionHistory.css'
 
 function TransactionHistory({items}) {
     return (
         <table className="transaction-history">
             <thead>
-                <tr>
-                    <th>Type</th>
-                    <th>Amount</th>
-                    <th>Currency</th>
+                <tr className='table-title-row'>
+                    <th className='table-title'>Type</th>
+                    <th className='table-title'>Amount</th>
+                    <th className='table-title'>Currency</th>
                 </tr>
             </thead>
 
@@ -28,3 +29,7 @@ function TransactionHistory({items}) {
 }
 
 export default TransactionHistory;
+
+TransactionHistory.prototype = {
+    items: PropTypes.object.isRequired,
+}
