@@ -10,14 +10,7 @@ import TransactionHistory from './TransactionHistory/TransactionHistory.jsx';
 
 export const App = () => {
   return (
-    <div
-      style={{
-        display: 'flex',
-        flexDirection: 'column',
-        fontSize: 16,
-        padding: '50px 0',
-      }}
-    >
+    <div>
       <Profile
       username={user.username}
       tag={user.tag}
@@ -31,6 +24,14 @@ export const App = () => {
     <FriendList friends={friends} />
     
     <TransactionHistory items={transactions} />
-    </div>
+  </div>
   );
 };
+
+
+      // style={{
+      //   display: 'flex',
+      //   flexDirection: 'column',
+      //   fontSize: 16,
+      //   padding: '50px 0',
+      // }}
