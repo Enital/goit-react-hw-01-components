@@ -1,12 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
+import css from './transactionItem.module.css'
 
 export const TransactionItem = ({ type, amount, currency }) => {
     return (
-        <tr className="table-row">
-            <td className="table-item">{ type }</td>
-            <td className="table-item">{ amount }</td>
-            <td className="table-item">{ currency }</td>
+        <tr className={css.tableRow}>
+            <td className={css.tableItem}>{ type }</td>
+            <td className={css.tableItem}>{ amount }</td>
+            <td className={css.tableItem}>{ currency }</td>
         </tr>
     )
 }

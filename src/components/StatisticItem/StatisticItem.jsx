@@ -1,14 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
 import css from './statisticItem.module.css'
+import { randomColor } from "Functions/functions";
 
-export const StatisticItem = ({ data }) => {
-    let redColor = Math.random() * 200;
-    let greenColor = Math.random() * 200;
-    let blueColor = Math.random() * 200;
-    let rgbColor = `rgb(${redColor} ${greenColor} ${blueColor})`;
+export const StatisticItem = ({ data }) => {   
     return (
-        <li className={css.item} style={{backgroundColor: rgbColor}}>
+        <li className={css.item} style={{backgroundColor: randomColor()}}>
             <span className={css.label}>{data.label}</span>
             <span className={css.percentage}>{data.percentage}%</span>
         </li>

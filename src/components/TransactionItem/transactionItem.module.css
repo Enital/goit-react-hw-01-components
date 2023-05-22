@@ -1,0 +1,10 @@
+.tableRow{
+    height: 30px;
+    background-color: azure;
+}
+.tableRow:nth-child(even){
+    background-color: lightgray;
+}
+.tableItem{
+    text-align: center;
+}
